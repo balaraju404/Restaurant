@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your restaurant description goes here">
+    <meta name="keywords" content="restaurant, food, menu, dining, location">
+    <title>Restaurant - HomePage</title>
+    <link rel="stylesheet" href="./homePage.css">
+    <link rel="stylesheet" href="./common.css">
+    <script src="./homePage.js" type="module" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#page1"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="#"><i class="fa-solid fa-location-dot"></i> Location</a>
+        <a href="./menuPage.html"><img src="./Media/Icons/delivery-man.png"> TakeOut</a>
+        <a href="./tablebooking.html"><img src="./Media/Icons/dinner-table.png"> Dining</a>
+        <a href="#"><i class="fa-regular fa-user"></i> Profile</a>
+        <a href="./cartPage.html"><i class="fa-solid fa-cart-shopping"></i> Cart <div id="cartCount">0</div></a>
+        <a href="#sidebar" id="threeBars"><i class="fa-solid fa-bars"></i></a>
+    </div>
+    <div class="sidebar">
+        <div id="closeSidebar">
+            <i class="fa-solid fa-xmark" id="closeIcon"></i>
+        </div>
+        <div id="sidebarList">
+            <a href="#"><img src="./Media/Icons/menu.png"> MENU</a>
+            <a href="#"><img src="./Media/Icons/about.png"> ABOUT</a>
+            <a href="#"><img src="./Media/Icons/location.png"> LOCATION</a>
+            <a href="#"><img src="./Media/Icons/career.png"> CAREERS</a>
+            <a href="#"><img src="./Media/Icons/feedback.png"> CONTACT</a>
+        </div>
+        <div id="sidebarSocialMedia">
+            <!-- <div> -->
+            <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+            <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <!-- </div> -->
+            <a href="#"><i class="fa-solid fa-mobile-screen-button"> +91 9988800000</i></a>
+            <a href="#"><i class="fa-solid fa-square-envelope"></i>abc@gmail.com</a>
+        </div>
+    </div>
+    <!-- Page 1 -->
+    <div id="page1">
+        <h1>RESTAURANT NAME</h1>
+        <div class="orderContainer">
+            <div id="takeoutContainer">
+                <img src="./Media/Image/takeout-menu-WEB-2.webp">
+                <p>TakeOut</p>
+            </div>
+            <div id="DiningContainer">
+                <img src="./Media/Image/Dining.webp">
+                <p>Dining</p>
+            </div>
+        </div>
+    </div>
+    <!-- page 2 -->
+    <div id="page2">
+        <div id="bestInVeg">
+            <h2>Best In Veg Items</h2>
+            <div class="itemsList">
+                <img class="itemImage" src="./Media/Image/Palak_Paneer.jpg">
+                <div class="itemDescription">
+                    <h3 class="itemTitle">Palak Paneer</h3>
+                    <p class="itemInfo">
+                        Palak paneer is a popular Indian vegetarian dish made with paneer cheese in a rich,
+                        thick sauce consisting of puréed spinach mixed with tomatoes, garam masala, garlic,
+                        and numerous spices. The key ingredients are even mentioned in the name of the dish,
+                        since palak means spinach in hindi, and paneer refers to the cheese.
+                    </p>
+                    <div class="ic">
+                        <h3 class="itemPrice">&#8377 <span class="price">199.00</span></h3>
+                        <button class="addToCartBtn" value="0">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="itemsList">
+                <img class="itemImage" src="./Media/Image/Hyderabadi_Veg_Dum_Biryani.jpeg">
+                <div class="itemDescription">
+                    <h3 class="itemTitle">Hyderabadi Veg Dum Biryani</h3>
+                    <p class="itemInfo">
+                        This Hyderabadi veg biryani is one of the best vegetarian biryani recipe
+                        I make – loved by friends, family, and readers alike for more than 10 years.
+                    </p>
+                    <div class="ic">
+                        <h3 class="itemPrice">&#8377 <span class="price">239.00</span></h3>
+                        <button class="addToCartBtn" value="1">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="bestInNonVeg">
+            <h2>Best In Non-Veg Items</h2>
+            <div class="itemsList">
+                <img class="itemImage" src="./Media/Image/keema_biryani.jpeg">
+                <div class="itemDescription">
+                    <h3 class="itemTitle">Keema Biryani Recipe</h3>
+                    <p class="itemInfo">
+                        Keema Biryani, the name itself makes all the non vegetarians crave for
+                        this biryani. Minced mutton combined with the aromatic rice is all you!
+                    </p>
+                    <div class="ic">
+                        <h3 class="itemPrice">&#8377 <span class="price">309.00</span></h3>
+                        <button class="addToCartBtn" value="2">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="itemsList">
+                <img class="itemImage" src="./Media/Image/Hyderabadi_Chicken_Dum_Biryani.webp">
+                <div class="itemDescription">
+                    <h3 class="itemTitle">Hyderabadi Chicken Dum Biryani</h3>
+                    <p class="itemInfo">
+                        Hyderabadi Chicken Dum Biryani is an authentic Hyderabadi special rice dish
+                        which is a popular Dum Biryani recipe of Chicken from Hyderabad served with
+                        kheera raita or cucumber raita or pyaz ka raita or onion raita and Hyderabad
+                        is famous for Biryani all across India.
+                    </p>
+                    <div class="ic">
+                        <h3 class="itemPrice">&#8377 <span class="price">289.00</span></h3>
+                        <button class="addToCartBtn" value="3">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page 3 -->
+    <div id="page3">
+        <h2>Catogories</h2>
+        <div id="catogoriesList">
+            <div>
+                <img src="./Media/Image/Biryani.png">
+                Biryani
+            </div>
+            <div>
+                <img src="./Media/Image/Pizza.png">
+                Pizza
+            </div>
+            <div>
+                <img src="./Media/Image/Fried_Rice.webp">
+                Fried Rice
+            </div>
+            <div>
+                <img src="./Media/Image/noodles.png">
+                Noodles
+            </div>
+            <div>
+                <img src="./Media/Image/Roties.png">
+                Roties
+            </div>
+            <div>
+                <img src="./Media/Image/starters.webp">
+                Starters
+            </div>
+            <div>
+                <img src="./Media/Image/Main_Course.png">
+                Main Course
+            </div>
+            <div>
+                <img src="./Media/Image/Desserts.png">
+                Desserts
+            </div>
+            <div>Non-Veg</div>
+            <div>
+                <img src="./Media/Image/Pure_Veg.png">
+                Pure Veg
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Page 4 -->
+    <div id="page4">
+        <h3>Biryani</h3>
+        <div id="biryaniList"></div>
+    </div>
+
+    <div class="footer">
+        <div id="footerLogo">
+            Logo
+            <div id="footerSocialMedia">
+                <h2>Social Media</h2>
+                <div>
+                    <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                </div>
+            </div>
+
+        </div>
+        <div id="footerLocation">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.377746440942!2d78.39722557479203!3d17.48947228341524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9193a244a403%3A0x377b1d29089565bf!2sRd%20Number%201%2C%20KPHB%20Phase%20I%2C%20K%20P%20H%20B%20Phase%201%2C%20Kukatpally%2C%20Hyderabad%2C%20Telangana%20500072!5e0!3m2!1sen!2sin!4v1705857566699!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="footerContactUs">
+            <h2>CONTACT US</h2>
+            <h4>Email</h4>
+            <p>abc@gmail.com</p>
+            <h4>Phone</h4>
+            <p>9988800000</p>
+            <h4>Address</h4>
+            <p>EWS 341 KPHB Phase 1 , Hyderabad, TS 500072</p>
+        </div>
+        <div id="footerSubcribe">
+            <h2>JOIN OUR NEWSLETTER</h2>
+            <p>Sign up to receive timely, useful information and discount coupons in your inbox!</p>
+            <div>
+                <label for="">Email</label>
+                <input type="email">
+            </div>
+            <div>
+                <label for="">First Name</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">Last Name</label>
+                <input type="text">
+            </div>
+            <button>Subcribe</button>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+#page1 {
+    /* margin-top: 15vh; */
+    height: 100vh;
+    width: 99vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+#page1 h1 {
+    margin: 50px 10px;
+    width: 97.5vw;
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 0 5px 5px rgb(255, 255, 255);
+}
+
+.orderContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.orderContainer div {
+    height: 50vh;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    box-shadow: 0 0 5px rgb(0, 255, 255);
+
+}
+
+.orderContainer div img {
+    height: 100%;
+    width: 100%;
+    filter: blur(2px);
+}
+
+.orderContainer div p {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    letter-spacing: 15px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0), -1px -1px 0.5px rgb(255, 0, 0);
+    margin-bottom: 20px;
+}
+
+#takeoutContainer {
+    background-image: url(./Media/Image/takeout-menu-WEB-2.webp);
+    background-size: 100% 100%;
+}
+
+#DiningContainer {
+    background-image: url(./Media/Image/Dining.webp);
+    background-size: 180% 120%;
+    background-position: center;
+}
+
+#page2 {
+    height: 100vh;
+    width: 99vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#bestInVeg,
+#bestInNonVeg {
+    height: 70vh;
+    width: 40vw;
+    background-color: rgba(0, 234, 255, 0.248);
+    box-shadow: 0 0 2px black;
+
+}
+
+#page2 .itemsList {
+    margin: 10px;
+    height: 200px;
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#page2 .itemsList .ic {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#page2 .itemDescription {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#page2 .itemImage {
+    height: 150px;
+    width: 150px;
+}
+
+#page2 .itemInfo {
+    height: 60%;
+    text-align: justify;
+}
+
+#page3 {
+    height: 70vh;
+    width: 99vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#page3 #catogoriesList {
+    height: 70vh;
+    width: 99vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#page3 #catogoriesList div {
+    height: 200px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-indent: 5px;
+    font-weight: bold;
+    color: rgb(4, 0, 255);
+    background-color: rgba(0, 234, 255, 0.248);
+    box-shadow: 0 0 2px black;
+
+}
+
+#page3 #catogoriesList div img {
+    height: 100px;
+    width: 150px;
+}

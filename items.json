@@ -1,0 +1,130 @@
+[
+    {
+        "id": 1,
+        "title": "Chicken Biryani Family",
+        "image": "./Media/Items/Chicken-Biryani-Family.avif",
+        "description": "Chicken Biryani Family ((Serves With Four Piece of Chicken, Mirchi Ka Salan,Dahi Ka Chutney And Salad)A delightful preparation of richly flavored aromatic rice layered with marinated chicken pieces in a delicate blend of whole spices.)",
+        "price": "550",
+        "catogory": "Biryani"
+    },
+    {
+        "id": 2,
+        "title": "Chicken Biryani Jumbo",
+        "image": "./Media/Items/Chicken-Biryani-Jumbo.avif",
+        "description": "Chicken Biryani Jumbo ((Serves With Six Piece of Chicken, Mirchi Ka Salan,Dahi Ka Chutney And Salad)A delightful preparation of richly flavored aromatic rice layered with marinated chicken pieces in a delicate blend of whole spices.)",
+        "price": "700",
+        "catogory": "Biryani"
+    },
+    {
+        "id": 3,
+        "title": "Chicken Biryani Single",
+        "image": "./Media/Items/Chicken-Biryani-Single.avif",
+        "description": "Chicken Biryani Single((Serves With One Piece of Chicken, Mirchi Ka Salan,Dahi Ka Chutney And Salad)A delightful preparation of richly flavored aromatic rice layered with marinated chicken pieces in a delicate blend of whole spices.)",
+        "price": "140",
+        "catogory": "Biryani"
+    },
+    {
+        "id": 4,
+        "title": "Chicken Biryani Full",
+        "image": "./Media/Items/Chicken-Biryani-Full.avif",
+        "description": "Chicken Biryani Full((Serves With Two Piece of Chicken, Mirchi Ka Salan,Dahi Ka Chutney And Salad)A delightful preparation of richly flavored aromatic rice layered with marinated chicken pieces in a delicate blend of whole spices.)",
+        "price": "230",
+        "catogory": "Biryani"
+    },
+    {
+        "id": 5,
+        "title": "Mutton Biryani Full",
+        "image": "./Media/Items/Mutton-Biryani-Full.avif",
+        "description": "Mutton Biryani Full (Mutton Biryani Serves with 8 Mutton Piece, Mirchi Ka Salan, Dahi Ka Chutney, Salad)",
+        "price": "260",
+        "catogory": "Biryani"
+    },
+    {
+        "id": 6,
+        "title": "Mutton Biryani Jumbo",
+        "image": "./Media/Items/Mutton-Biryani-Jumbo.avif",
+        "description": "Mutton Biryani Jumbo (Mutton Biryani Serves with 24 Mutton Piece, Mirchi Ka Salan, Dahi Ka Chutney, Salad)",
+        "price": "740",
+        "catogory": "Biryani"
+    },
+    {
+        "id": 7,
+        "title": "Mutton Biryani Single",
+        "image": "./Media/Items/Mutton-Biryani-Single.avif",
+        "description": "Mutton Biryani Single (Mutton Biryani Serves with 4 Mutton Piece, Mirchi Ka Salan, Dahi Ka Chutney, Salad)",
+        "price": "160",
+        "catogory": "Biryani"
+    },
+    {
+        "id": 8,
+        "title": "Special Mutton Biryani",
+        "image": "./Media/Items/Special-Mutton-Biryani.avif",
+        "description": "Mutton Biryani Serves with Twelve Piece of Mutton, Salan, Raita and salad",
+        "price": "330",
+        "catogory": "Biryani"
+    },
+    {
+        "id": 9,
+        "title": "Veg Biryani Single",
+        "image": "./Media/Items/Veg-Biryani-Single.avif",
+        "description": "Veg Biryani Single - Plain rice Served with Salan, Raita and Salad",
+        "price": "110",
+        "catogory": "Biryani"
+    },
+    {
+        "id": 10,
+        "title": "Veg Biryani Jumbo",
+        "image": "./Media/Items/Veg-Biryani-Jumbo.avif",
+        "description": "Veg Biryani Jumbo (Serves Two People) - Plain rice Served with Salan, Raita and Salad",
+        "price": "450",
+        "catogory": "Biryani"
+    },
+    {
+        "id": 11,
+        "title": "My Box - Veg",
+        "image": "./Media/Items/My-Box-Veg.avif",
+        "description": "Serves 1 | 1 Personal Veg Pizza, 2 Pc Garlic Bread & 1 Pepsi Pet Bottle!",
+        "price": "249",
+        "catogory": "Pizza"
+    },
+    {
+        "id": 12,
+        "title": "Mexican Fiesta",
+        "image": "./Media/Items/Mexican-Fiesta.avif",
+        "description": "Serves 1 | Flavourful mix of red capsicum, green capsicum, jalapeno, onion, black olives, sweet corn and 100% mozzarella Cheese with a signature spice sprinkle & our flavourful pan sauce.",
+        "price": "319",
+        "catogory": "Pizza"
+    },
+    {
+        "id": 13,
+        "title": "Veggie Feast",
+        "image": "./Media/Items/Veggie-Feast.avif",
+        "description": "Serves 1 | Herbed onion and Green Capsicum, juicy Sweet Corn & 100% mozzarella cheese with flavourful pan sauce.",
+        "price": "259",
+        "catogory": "Pizza"
+    },
+    {
+        "id": 14,
+        "title": "Tandoori Paneer",
+        "image": "./Media/Items/Tandoori-Paneer.avif",
+        "description": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
+        "price": "319",
+        "catogory": "Pizza"
+    },
+    {
+        "id": 15,
+        "title": "BBQ Chicken Pizza [Regular 7]",
+        "image": "./Media/Items/BBQ-Chicken-Pizza.avif",
+        "description": "[Regular 7 Serves 1] BBQ Chicken | Spicy Jalapeno | Golden Corn | Tomato",
+        "price": "289",
+        "catogory": "Pizza"
+    },
+    {
+        "id": 15,
+        "title": "Butter Chicken Pizza [Regular 7]",
+        "image": "./Media/Items/Butter-Chicken-Pizza.avif",
+        "description": "[Regular 7 Serves 1] Tandoori Chicken | Capsicum | Onion | Tomato [Comes with Makhni Sauce instead of Pizza Sauce]",
+        "price": "319",
+        "catogory": "Pizza"
+    }
+]
